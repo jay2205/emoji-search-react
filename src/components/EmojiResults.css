@@ -1,0 +1,28 @@
+.component-emoji-result-row {
+  display: flex;
+  margin: 10px;
+  border-bottom: solid 0.5px #ccc;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.component-emoji-result-row p {
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+.component-emoji-result-row button {
+  font-size: 1.5em;
+  text-align: right;
+  color: #ccc;
+  align-content: flex-end;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
